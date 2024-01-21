@@ -11,7 +11,7 @@ The R script contains the primary analysis model. It utilizes the Generalized Ad
 
 ## Files in the Repository
 - `idf_model.py`: Python code for calculating the threshold value of extreme rainfall events using the IDF model.
-- `respiratory_impact_analysis.R`: R code for analyzing the effects of identified extreme rainfall events on respiratory mortality using GAM and DLMs.
+- `main analysis model.R`: R code for analyzing the effects of identified extreme rainfall events on respiratory mortality using GAM and DLMs.
 
 ## Usage
 To use these scripts, ensure you have the required datasets and dependencies installed in your Python and R environments. 
