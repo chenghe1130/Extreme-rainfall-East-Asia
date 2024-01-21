@@ -1,6 +1,6 @@
 #############################################################################
-#### Effects of extreme rainfall events and respiratory mortality in 32 East Asia cities
-#### DLNM1. Main effects of extreme rainfall events with a 5-year return period as “r5” in the time series data
+#### The Overlooked Health Impacts of Extreme Rainfall Exposure in 32 East Asian cities
+#### DLM. Main effects of extreme rainfall events with a 5-year return period as “r5” in the time series data
 #### Cheng He, Jan. 2024
 #### Fudan University & Helmholtz Zentrum Muenchen 
 #############################################################################
