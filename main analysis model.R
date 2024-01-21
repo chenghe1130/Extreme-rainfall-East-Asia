@@ -42,7 +42,7 @@ names(Sall) <- regions
 Srain <- Sall
 options(warn=-1)
 ## 4.2 Input parameters of main model
-lag <- 28
+lag <- 14
 lagnk <- 3
 lagknots <- logknots(lag,df=4,int=T)
 arglag <- list(fun="ns",knots=lagknots)
@@ -54,7 +54,7 @@ for(i in seq(data)) {
   cbtemp <- crossbasis(sub$tmean,lag=lag,argvar=list(fun="bs",knots=vk,degree=2),
                        arglag=list(knots=logknots(lag,lagnk)))
   mfirst <- gam(death ~
-                  cbr5+cbtemp+as.factor(dow)+ns(rh,3)+as.factor(holiday)+ns(time,df=4*length(unique(sub$year))),family=quasipoisson(),sub)
+                  cbr5+cbtemp+as.factor(dow)+as.factor(holiday)+ns(time,df=4*length(unique(sub$year))),family=quasipoisson(),sub)
   crall <- crossreduce(cbr5,mfirst)
   crrain <- crossreduce(cbr5,mfirst,type="var",value=1,cen=0)
   yall[i,] <- coef(crall)
