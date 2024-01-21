@@ -10,7 +10,7 @@ The Python script is used to process time-series daily precipitation data for va
 The R script contains the primary analysis model. It utilizes the Generalized Additive Model (GAM) with Distributed Lag Models (DLMs) to assess the impact of precipitation on respiratory mortality. The analysis is particularly focused on extreme rainfall events with a 5-year return period as example, which have been identified previously.
 
 ## Files in the Repository
-- `idf_model.py`: Python code for calculating the threshold value of extreme rainfall events using the IDF model.
+- `calculate the threshold value.py`: Python code for calculating the threshold value of extreme rainfall events using the IDF model.
 - `main analysis model.R`: R code for analyzing the effects of identified extreme rainfall events on respiratory mortality using GAM and DLMs.
 
 ## Usage
