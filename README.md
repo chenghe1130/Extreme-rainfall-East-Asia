@@ -1,7 +1,7 @@
 # README
 
 ## Overview
-This repository contains the code used for the analysis presented in the article "The Overlooked Health Impacts of Extreme Rainfall Exposure in 32 East Asian Cities". The code is divided into two main parts: one written in Python and the other in R.
+This repository contains the code used for the analysis presented in the article "The overlooked health impacts of extreme rainfall exposure in 30 East Asian cities". The code is divided into two main parts: one written in Python and the other in R.
 
 ## Python Code
 The Python script is used to process time-series daily precipitation data for various cities. By employing the Intensity-Duration-Frequency (IDF) model, it calculates the threshold values for extreme rainfall events across different return periods. Specifically, the code demonstrates this calculation for three distinct return periods: 2, 5, and 10 years.
@@ -17,8 +17,8 @@ The R script contains the primary analysis model. It utilizes the Generalized Ad
 To use these scripts, ensure you have the required datasets and dependencies installed in your Python and R environments. 
 
 ## Citation
-If you use this code in your research, please cite it as follows:
-updated later
+If you use this code in your research, please cite our study:
+He, C., Kim, H., Hashizume, M. et al. The overlooked health impacts of extreme rainfall exposure in 30 East Asian cities. Nat Sustain (2024). https://doi.org/10.1038/s41893-024-01294-x
 
 ## Acknowledgments
 Jesús Casado Rodríguez’s tutorials served as a reference for the IDF model calculations. You can find his work: (https://github.com/casadoj/Clases/tree/master/G1448-Hydrology/Precipitation).
